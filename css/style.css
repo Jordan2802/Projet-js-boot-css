@@ -22,6 +22,7 @@ header{
 
 }
 
+
 .image_header{
   height: 200px;
 }
@@ -163,7 +164,7 @@ footer a, footer p {
   margin-right: 10px;
 }
 .texte{
-  overflow: auto ;
+  overflow: hidden;
   text-overflow: inherit;
   height: 50%;
   text-align: justify;
@@ -186,7 +187,7 @@ footer a, footer p {
 }
 
 .contenu{
-  border:<button type="button2" class="btn btn-outline-secondary">en savoir plus...</button> 2px solid  #28B799;
+  border: 2px solid  #28B799;
   box-shadow: 2px 2px 2px #333741;
   height: 350px;
   background-color: #F1EAD1;
@@ -230,12 +231,7 @@ div#wrapper {
 
 #retour{
   margin-top: 20px;
-  margin-left: 200px;
+  margin-left: 220px;
 }
 
 /*footer*/
-/*jquery*/
-.cache1,.cache2, .cache3{
-  display: none;
-  visibility: none;
-}
