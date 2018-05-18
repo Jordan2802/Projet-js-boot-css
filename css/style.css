@@ -70,35 +70,53 @@ img{
 /*body*/
 
 .col-lg-4,.col-lg-8{
-  margin-top: 10px;
-  margin-bottom: 10px;
-  height: 250px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  height: 350px;
 }
 
+.contenu8{
+  border: 2px solid  #28B799;
+  box-shadow: 2px 2px 2px #333741;
+  height: 200px;
+}
+.texte8{
+  overflow: hidden;
+  text-overflow: inherit;
+  height: 85%;
+  text-align: justify;
+  margin-left: 10px;
+  margin-right: 10px;
+}
 .texte{
   overflow: hidden;
-  text-overflow: ellipsis;
-  height: 60%;
+  text-overflow: inherit;
+  height: 50%;
   text-align: justify;
+  margin-left: 10px;
+  margin-right: 10px;
 }
 .button{
   height: 15%;
-  float: right;
+  text-align: center;
+}
+.button8{
+  text-align: right;
 }
 .img{
-  height: 25%;
+  height: 35%;
   background-color: rgba(16, 72, 60, 0.2);
 }
 
 .imgover{
-  width: 25%;
+  width: 100%;
   height: 100%;
 }
 
 .contenu{
   border: 2px solid  #28B799;
   box-shadow: 2px 2px 2px #333741;
-  height: 250px;
+  height: 350px;
 }
 
 
