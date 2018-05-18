@@ -9,6 +9,7 @@ p{
   color: #F8BF39;
 }
 
+
 /*header*/
 
 .image_header{
@@ -75,11 +76,11 @@ p{
   overflow: hidden;
   text-overflow: ellipsis;
   height: 50%;
+  text-align: justify;
 }
 .button{
   height: 25%;
   float: right;
-  text-align: right;
 }
 .img{
   height: 25%;
@@ -88,6 +89,11 @@ p{
   border: 2px solid  #28B799;
   box-shadow: 2px 2px 2px #333741;
   height: 250px;
+}
+
+.contimg{
+  background-image: url(img/img1.jpg);
+  background-size:100% auto;
 }
 
 /*footer*/
