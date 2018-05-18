@@ -70,10 +70,10 @@ p{
   margin-bottom: 10px;
   height: 250px;
 }
-.case2{
+/*.case2{
   margin-left: 5px;
   margin-right: 5px;
-}
+}*/
 .texte{
   overflow: hidden;
   text-overflow: ellipsis;
@@ -82,6 +82,7 @@ p{
 .button{
   height: 25%;
   float: right;
+  text-align: right;
 }
 .img{
   height: 25%;
