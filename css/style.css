@@ -9,7 +9,10 @@ p{
   color: #F8BF39;
 }
 
-
+img{
+  width: 100%;
+  height: 100%;
+}
 /*header*/
 
 .image_header{
@@ -19,6 +22,16 @@ p{
 }
 
 /*navbar*/
+
+.affix {
+    top: 0;
+    width: 100%;
+    z-index: 9999 !important;
+}
+
+ .affix + .container-fluid {
+    padding-top: 70px;
+}
 
 #navbar {
 
@@ -65,25 +78,29 @@ p{
 .texte{
   overflow: hidden;
   text-overflow: ellipsis;
-  height: 50%;
+  height: 60%;
   text-align: justify;
 }
 .button{
-  height: 25%;
+  height: 15%;
   float: right;
 }
 .img{
   height: 25%;
+  background-color: rgba(16, 72, 60, 0.2);
 }
+
+.imgover{
+  width: 25%;
+  height: 100%;
+}
+
 .contenu{
   border: 2px solid  #28B799;
   box-shadow: 2px 2px 2px #333741;
   height: 250px;
 }
 
-.contimg{
-  background-image: url(img/img1.jpg);
-  background-size:100% auto;
-}
+
 
 /*footer*/
